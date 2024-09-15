@@ -58,7 +58,7 @@ async function procurarCidade(city) {
     if(dados.status === 200) {
       const resultado = await dados.json();
 
-      //mostrarClimaNaTela(resultado);
+      mostrarClimaNaTela(resultado);
       console.log(resultado, '<<')
     } else {
       throw new Error
