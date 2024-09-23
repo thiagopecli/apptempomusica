@@ -36,7 +36,7 @@ html {
   z-index: 1;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .container {
     height: auto;
     padding: 2rem 1rem;
@@ -110,7 +110,7 @@ html {
   visibility: hidden;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .envelope {
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ html {
   z-index: 1;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-clima {
     width: 250px;
   }
@@ -146,7 +146,7 @@ html {
   margin-bottom: 0.25rem;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-clima img {
     height: 8.5rem;
     width: 250px;
@@ -169,7 +169,7 @@ html {
   text-overflow: ellipsis;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-clima h2 {
     font-size: 2.375rem;
   }
@@ -183,7 +183,7 @@ html {
   margin-bottom: 1.25rem;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-clima h3 {
     font-size: 5rem;
     line-height: 3rem;
@@ -224,7 +224,7 @@ html {
   z-index: -1;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-clima::after {
     width: 250px;
     height: 290px;
@@ -239,7 +239,7 @@ html {
   line-height: 2rem;
 }
 
-@media (max-width: 755px) {
+@media (max-width: 810) {
   .conteudo-variacoes {
     max-width: 170px;
   }
@@ -266,12 +266,27 @@ html {
   z-index: 1;
 }
 
+@media (max-width: 810) {
+  .conteudo-musica {
+    width: 250px;
+  }
+}
+
 .icone-musica {
   width: 8.5rem;
   height: 8.5rem;
 
   margin-bottom: 1.25rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 810) {
+  .icone-musica {
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+  }
 }
 
 .conteudo-musica h2 {
@@ -281,6 +296,13 @@ html {
   font-weight: 400;
 
   text-transform: uppercase;
+}
+
+@media (max-width: 810) {
+  .conteudo-musica h2 {
+    font-size: 2.375rem;
+    margin-bottom: 1.75rem;
+  }
 }
 
 .playlist-caixa {
@@ -314,6 +336,17 @@ html {
   text-overflow: ellipsis;
 }
 
+@media (max-width: 810) {
+  .playlist-caixa li img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .playlist-caixa li p {
+    font-size: 1.5rem;
+  }
+}
+
 .conteudo-musica::after {
   content: "";
   position: absolute;
@@ -334,4 +367,13 @@ html {
   height: 406px;
 
   z-index: -1;
+}
+
+@media (max-width: 810) {
+  .conteudo-musica::after {
+    width: 250px;
+    height: 330px;
+
+    top: 5rem;
+  }
 }
