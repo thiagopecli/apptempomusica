@@ -47,7 +47,6 @@ function movimentoInput(inputValue) {
 
 function botaoDeBusca() {
   const inputValue = input.value;
-
   movimentoInput(inputValue);
 }
 
