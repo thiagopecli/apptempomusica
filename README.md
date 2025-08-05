@@ -3,6 +3,8 @@ Olá, pessoal!
 Neste repositório eu estou colocando em prática meu aprendizado em HTML5, Css e JS. Neste repositório eu criei um aplicativo de previsão de tempo e exibição das três musicas mais ouvidas
 no spotify da cidade pesquisada.
 
+Link para acessar a pagina: https://thiagopecli.github.io/apptempomusica/
+
 Aula do YouTube: 
 
 Parte 01: https://www.youtube.com/watch?v=BsxGMdwFSPU
